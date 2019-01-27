@@ -11,4 +11,4 @@ export default function arangojs(config: Config) {
 Object.assign(arangojs, { CollectionType, ArangoError, Database, aql });
 export { DocumentCollection, EdgeCollection } from "./collection";
 export { Graph } from "./graph";
-export { Database, aql };
+export { ArangoError, Database, aql };
