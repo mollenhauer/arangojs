@@ -11,3 +11,5 @@ export default Object.assign(arangojs, { CollectionType, ArangoError, Database, 
 export { DocumentCollection, EdgeCollection } from "./collection";
 export { Graph } from "./graph";
 export { Database, aql };
+export { ArrayCursor } from "./cursor";
+export { ArangoError };
